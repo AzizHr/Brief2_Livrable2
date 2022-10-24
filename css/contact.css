@@ -1,0 +1,47 @@
+
+    .contact{
+      width: 60%;
+      margin-left: 20%;
+      margin-top: 80px;
+      margin-bottom: 100px;
+      /* background-color: blueviolet; */
+      display: grid;
+      justify-content: center;
+      grid-row-gap: 30px;
+    }
+    /* les zones de nom , prenom , email , numero de telephone */
+    input{
+      width: 360px;
+      height: 38px;
+      padding: 12px;
+      border-radius: 6px;
+      border: none;
+      outline: 1px solid rgb(180, 180, 180);
+      font-size: 12px;
+    }
+    /* zone de message */
+    textarea{
+      font-size: 12;
+      width: 360px;
+      padding: 12px;
+      border-radius: 6px;
+      border: none;
+      outline: 1px solid rgb(180, 180, 180);
+    }
+    .top{
+      text-align: center;
+      margin-top: 80px;
+    }
+    .top p{
+      margin-top: 10px;
+    }
+    /* button send */
+    .send{
+      width: 120px;
+      height: 40px;
+      background: linear-gradient(to bottom, #f5e47b, #fb930a);
+      border: none;
+      color: white;
+      border-radius: 6px;
+      font-size: medium;
+    }
